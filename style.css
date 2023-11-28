@@ -1,0 +1,63 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+img {
+  width: 100%;
+  height: auto;
+  display: block;
+}
+
+@font-face {
+  font-family: wavetosh;
+  src: url("Wavetosh/Wavetosh.woff");
+  src: url("Wavetosh/Wavetosh.woff2");
+  font-weight: normal;
+  font-style: normal;
+}
+
+h1 {
+  font-family: wavetosh;
+  font-size: 80px;
+  margin-top: 5%;
+  margin-left: 10%;
+  display: flex;
+  color: rgb(215, 129, 129);
+}
+
+.index {
+  background-image: url(emil_billeder/emil_3.webp);
+  background-size: cover;
+}
+
+.header {
+  background-color: black;
+  padding: 30px;
+}
+
+ul {
+  display: flex;
+  justify-content: center;
+  gap: 100px;
+  list-style: none;
+}
+
+header a {
+  color: rgb(184, 231, 215);
+  text-decoration: none;
+  font-size: 150%;
+}
+
+.grid_1 {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+}
+
+iframe {
+  width: 100%;
+  height: auto;
+
+  aspect-ratio: 16 / 9;
+}
